@@ -22,6 +22,7 @@ try {
     $dbh = new PDO($odbc, $user, $password);
 } catch (PDOException $e) {
     echo utf8_encode($e->getMessage());
+    echo 'modificado desde github';
 }
 ?>
  
